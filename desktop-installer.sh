@@ -15,7 +15,8 @@ if pacman -Qs paru > /dev/null;
 fi
 
 #install desktop environment packages
-paru -S hyprland hypridle hyprpaper hyprshot waybar swaync terminator nwg-drawer-bin xdg-desktop-portal-hyprland archlinux-xdg-menu noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra terminus-font otf-font-awesome ttf-font-awesome qt6ct nwg-look papirus-icon-theme papirus-folders mate-polkit sddm network-manager-applet
+paru -S hyprland hypridle hyprpaper hyprshot waybar swaync terminator nwg-drawer-bin xdg-desktop-portal-hyprland archlinux-xdg-menu noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra terminus-font otf-font-awesome ttf-font-awesome qt6ct nwg-look papirus-icon-theme papirus-folders mate-polkit sddm network-manager-applet dolphin dolphin-plugins breeze breeze-gtk breeze-icons breeze5 qqc2-breeze-style
 
 #copy configs
 cp -r conf/* ~/.config
+papirus-folders -C red
