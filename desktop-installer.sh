@@ -22,4 +22,4 @@ cp -r conf/* ~/.config
 cp .gtkrc-2.0 ~/.gtkrc-2.0
 papirus-folders -C red
 
-paru -S nwg-look
+#paru -S nwg-look
