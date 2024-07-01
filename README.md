@@ -7,6 +7,4 @@ TODO NEXT:
 
 get gtk settings to work properly
 
-sddm theme
-
 additional software
