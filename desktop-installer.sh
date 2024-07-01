@@ -13,5 +13,9 @@ if pacman -Qs paru > /dev/null;
     cd paru
     makepkg -si
 fi
+
 #install desktop environment packages
-paru -S hyprland hypridle hyprpaper hyprshot waybar swaync terminator nwg-drawer-bin xdg-desktop-portal-hyprland archlinux-xdg-menu noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra terminus-font otf-font-awesome ttf-font-awesome qt6ct nwg-look papirus-icon-theme papirus-folders mate-polkit sddm
+paru -S hyprland hypridle hyprpaper hyprshot waybar swaync terminator nwg-drawer-bin xdg-desktop-portal-hyprland archlinux-xdg-menu noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra terminus-font otf-font-awesome ttf-font-awesome qt6ct nwg-look papirus-icon-theme papirus-folders mate-polkit sddm network-manager-applet
+
+#copy configs
+cp conf/* ~/.config
