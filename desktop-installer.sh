@@ -12,11 +12,14 @@ if pacman -Qs paru > /dev/null;
     git clone https://aur.archlinux.org/paru.git
     cd paru
     makepkg -si
+    cd ..
 fi
 
-cd ..
 #install desktop environment packages
-paru -S hyprland hypridle hyprpaper hyprshot waybar swaync terminator nwg-drawer-bin xdg-desktop-portal-hyprland archlinux-xdg-menu noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra terminus-font otf-font-awesome ttf-font-awesome qt6ct papirus-icon-theme papirus-folders mate-polkit sddm network-manager-applet dolphin dolphin-plugins breeze breeze-gtk breeze-icons breeze5 qqc2-breeze-style nwg-look
+paru -S hyprland hypridle hyprpaper hyprshot waybar swaync terminator nwg-drawer-bin xdg-desktop-portal-hyprland archlinux-xdg-menu noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra terminus-font otf-font-awesome ttf-font-awesome qt6ct papirus-icon-theme papirus-folders mate-polkit sddm network-manager-applet dolphin dolphin-plugins breeze breeze-gtk breeze-icons breeze5 qqc2-breeze-style nwg-look pavucontrol kwallet
+
+sudo systemctl enable sddm
+sudo cp sddm-conf/theme.conf /etc/sddm.conf.d/theme.conf
 
 #copy configs
 cp -r conf/* ~/.config
