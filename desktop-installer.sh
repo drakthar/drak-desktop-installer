@@ -14,4 +14,4 @@ if pacman -Qs paru > /dev/null;
     makepkg -si
 fi
 #install desktop environment packages
-paru -S hyprland hypridle hyprpaper hyprshot waybar swaync terminator nwg-drawer-bin xdg-desktop-portal-hyprland archlinux-xdg-menu terminus-font otf-font-awesome ttf-font-awesome qt6ct nwg-look papirus-icons papirus-folders mate-polkit sddm
+paru -S hyprland hypridle hyprpaper hyprshot waybar swaync terminator nwg-drawer-bin xdg-desktop-portal-hyprland archlinux-xdg-menu terminus-font otf-font-awesome ttf-font-awesome qt6ct nwg-look papirus-icon-theme papirus-folders mate-polkit sddm
