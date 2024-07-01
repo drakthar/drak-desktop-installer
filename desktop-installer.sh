@@ -25,6 +25,7 @@ sudo cp sddm-conf/sddm.conf /etc/sddm.conf
 cp -r conf/* ~/.config
 cp .gtkrc-2.0 ~/.gtkrc-2.0
 papirus-folders -C red
+./apply-gtk-settings-from-configs.sh
 
 #install additional software
 paru -S --needed firefox kate mpv mission-center
