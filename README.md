@@ -5,6 +5,6 @@ please don't use this and complain when everything is fucked
 
 TODO NEXT:
 
-get gtk settings to work properly
-
 additional software
+
+libadwaita dark preferred
