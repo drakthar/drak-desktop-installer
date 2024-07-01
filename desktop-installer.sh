@@ -19,4 +19,5 @@ paru -S hyprland hypridle hyprpaper hyprshot waybar swaync terminator nwg-drawer
 
 #copy configs
 cp -r conf/* ~/.config
+cp .gtkrc-2.0 ~/.gtkrc-2.0
 papirus-folders -C red
